@@ -4,7 +4,7 @@ apply plugin: 'maven'
 apply plugin: 'signing'
 
 group 'com.miragesql'
-version '2.1.0-SNAPSHOT'
+version '2.1.0'
 
 compileJava.options.encoding = 'UTF-8'
 sourceCompatibility = 1.8
@@ -19,7 +19,7 @@ repositories {
 
 
 dependencies {
-    compile 'com.miragesql:miragesql:2.1.0-SNAPSHOT'
+    compile 'com.miragesql:miragesql:2.1.0'
 
     compile 'org.slf4j:slf4j-api:1.7.25'
 
